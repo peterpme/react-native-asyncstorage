@@ -50,21 +50,21 @@ render: {
 
 ## Usage Examples
 
-Fetch apiToken from `AsyncStorage` before loading the rest of the app
+- Fetch `username` from `AsyncStorage` before loading the rest of the app
 
 ```jsx
 <AsyncStorage.GetItem
-  itemKey='apiToken'
+  itemKey='username'
   render={({ loading, value, error }) => {
 
     if (loading) return <AppLoading />
-
+    
     return (
-      <Provider store={store}>
-        <AppWithNavigationState />
-      </Provider>
+      <View style={styles.container}>
+        <Text>Welcome to my app, ${value}</Text>
+      </View>
     )
-
+    
   }}
 />
 ```
