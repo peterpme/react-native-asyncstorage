@@ -2,6 +2,8 @@
 
 📬 📫 🗄 Declarative AsyncStorage component for React Native
 
+[![npm version](https://badge.fury.io/js/react-native-asyncstorage.svg)](https://badge.fury.io/js/react-native-asyncstorage)
+
 - [Installation](#installation)
 - [API](#api)
 - [Usage Examples](#usage-examples)
