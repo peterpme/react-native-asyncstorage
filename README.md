@@ -21,8 +21,31 @@ npm install --save react-native-asyncstorage
 
 ## API
 
-- AsyncStorage.GetItem
-- AsyncStorage.SaveItem
+- [AsyncStorage.GetItem](#asyncstoragegetitem)
+- [AsyncStorage.SaveItem](#asyncstoragesaveitem)
+
+## AsyncStorage.GetItem
+
+```js
+itemKey:  string
+render: {
+  loading: boolean,
+  value: string | object,
+  error: string
+}
+```
+
+## AsyncStorage.SetItem
+
+```js
+itemKey: string
+itemValue: string | object
+render: {
+  loading: boolean,
+  value: string | object,
+  error: string
+}
+```
 
 ## Usage Examples
 
@@ -43,8 +66,11 @@ Fetch apiToken from `AsyncStorage` before loading the rest of the app
 
   }}
 />
-
 ```
+
+## Planned Updates
+
+- multiGet & multiSet support for multiple keys
 
 ## Shoutout
 
