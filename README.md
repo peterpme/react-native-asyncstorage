@@ -50,7 +50,7 @@ render: {
 
 ## Usage Examples
 
-- Fetch `username` from `AsyncStorage` before loading the rest of the app
+- Fetch `username` from `AsyncStorage` before rendering the rest of your app
 
 ```jsx
 <AsyncStorage.GetItem
