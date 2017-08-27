@@ -2,7 +2,6 @@
 
 Declarative AsyncStorage component for React Native
 
-Thanks to [@tkh44 for the idea and his localforage version](https://github.com/tkh44/react-localforage)
 
 - [Installation](#installation)
 - [API](#api)
@@ -46,3 +45,7 @@ Fetch apiToken from `AsyncStorage` before loading the rest of the app
 />
 
 ```
+
+## Shoutout
+
+Thanks to [@tkh44 for the idea and his localforage version](https://github.com/tkh44/react-localforage). He makes a lot of great shit, follow him on [Twitter](https://www.twitter.com/tkh44)

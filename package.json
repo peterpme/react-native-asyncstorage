@@ -8,13 +8,12 @@
   },
   "keywords": [
     "react",
-    "native",
+    "react-native",
     "asyncstorage",
-    "declarative",
-    "component"
+    "declarative"
   ],
   "author": "Peter Piekarczyk <peterpiekarczyk@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterpme/react-native-asyncstorage.git"
