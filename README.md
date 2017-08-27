@@ -10,13 +10,13 @@ Thanks to [@tkh44 for the idea and his localforage version](https://github.com/t
 
 ## Installation
 
-```bash
+```zsh
 yarn add react-native-asyncstorage
 ```
 
 or
 
-```bash
+```zsh
 npm install --save react-native-asyncstorage
 ```
 
@@ -29,7 +29,7 @@ npm install --save react-native-asyncstorage
 
 Fetch apiToken from `AsyncStorage` before loading the rest of the app
 
-```es6
+```jsx
 <AsyncStorage.getItem
   itemKey='apiToken'
   render={({ loading, value, error }) => {
