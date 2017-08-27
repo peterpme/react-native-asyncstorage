@@ -22,7 +22,7 @@ npm install --save react-native-asyncstorage
 ## API
 
 - [AsyncStorage.GetItem](#asyncstoragegetitem)
-- [AsyncStorage.SaveItem](#asyncstoragesaveitem)
+- [AsyncStorage.SetItem](#asyncstoragesetitem)
 
 ## AsyncStorage.GetItem
 
