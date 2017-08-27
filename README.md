@@ -1,7 +1,6 @@
 # react-native-asyncstorage
 
-Declarative AsyncStorage component for React Native
-
+📬 📫 🗄 Declarative AsyncStorage component for React Native
 
 - [Installation](#installation)
 - [API](#api)
