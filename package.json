@@ -4,6 +4,9 @@
   "description": "A declarative AsyncStorage component for React Native",
   "main": "src/index.js",
   "scripts": {
+    "flow": "flow; test $? -eq 1 -o $? -eq 2",
+    "flow-stop": "flow stop",
+    "format": "prettier-eslint ./src --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,5 +27,42 @@
   "homepage": "https://github.com/peterpme/react-native-asyncstorage#readme",
   "peerDependencies": {
     "react-native": "^0.47.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.52.0",
+    "prettier-eslint": "^6.4.2",
+    "prettier-eslint-cli": "^4.1.1"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "standard",
+      "standard-react",
+      "plugin:flowtype/recommended"
+    ],
+    "plugins": [
+      "flowtype"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "settings": {
+      "flowtype": {
+        "onlyFilesWithFlowAnnotation": true
+      }
+    }
   }
 }
