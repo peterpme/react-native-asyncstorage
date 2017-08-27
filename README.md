@@ -30,7 +30,7 @@ npm install --save react-native-asyncstorage
 Fetch apiToken from `AsyncStorage` before loading the rest of the app
 
 ```jsx
-<AsyncStorage.getItem
+<AsyncStorage.GetItem
   itemKey='apiToken'
   render={({ loading, value, error }) => {
 
